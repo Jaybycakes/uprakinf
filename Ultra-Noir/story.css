@@ -1,0 +1,122 @@
+
+.showcase{
+    background-image:url(images/alexander-dummer-aS4Duj2j7r4-unsplash.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+  }
+  .icon{
+    width:30px;
+    height:30px;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .input-field {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input-field .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+  }
+  
+  .input-field input,
+  .input-field select,
+  .input-field textarea {
+    width: 100%;
+    padding: 12px 40px;
+    background: rgba(96, 96, 96, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .input-field textarea {
+    height: 150px;
+    resize: none;
+    padding-top: 12px;
+  }
+  
+  .input-field input:focus,
+  .input-field select:focus,
+  .input-field textarea:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  .submit-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color:black;
+    padding: 12px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  
+  select option {
+    background: #ffffff;
+    color: #000;
+  }
+  .showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .bghelper {
+    width: 100%;
+  }
+  
